@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the form container */
+.inline-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+   
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for labels */
+
+
+.inline-form label {
+    flex: 1 1;
+    min-width: 80px;
+    font-size: x-large;
+    font-weight: 700;
+    color: maroon;
+    padding-inline-start: 100px;
+    padding-inline-end: -29px;
+}
+
+/* Style for input fields */
+.inline-form input[type="text"],
+.inline-form input[type="email"],
+.inline-form input[type="password"] {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Style for the submit button */
+.inline-form button {
+    flex: 2;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.inline-form button:hover {
+    background-color: #0056b3;
+}
+
+.inline-form {
+    background-color: pink;
+    padding-top: 23px;
+}
+.space {
+    padding-top: 18px;
+}
